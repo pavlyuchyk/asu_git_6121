@@ -836,8 +836,8 @@ Text = {
 };
 
 SFX = {
-  laser:     new Audio('39459__THE_bizniss__laser.wav'),
-  explosion: new Audio('51467__smcameron__missile_explosion.wav')
+  explosion:     new Audio('39459__THE_bizniss__laser.wav'),
+  laser: new Audio('51467__smcameron__missile_explosion.wav')
 };
 
 // preload audio
@@ -932,8 +932,8 @@ Game = {
       }
 
       Game.score = 0;
-      Game.lives = 2;
-      Game.totalAsteroids = 2;
+      Game.lives = 3;
+      Game.totalAsteroids = 4;
       Game.spawnAsteroids();
 
       Game.nextBigAlienTime = Date.now() + 30000 + (30000 * Math.random());
